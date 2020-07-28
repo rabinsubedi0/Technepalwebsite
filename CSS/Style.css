@@ -38,8 +38,7 @@ height:55px;
   font-optical-sizing: 100px;
   font-size: 19px;
   text-align: center;
- 
-  margin-right: 30px;
+  margin-right: 45px;
   font-family: 'Archivo', sans-serif;
   font-family: 'Tinos', serif;
   overflow: hidden;
@@ -76,7 +75,7 @@ div{
   color: white;
   margin:0;
   padding: 10px;
-  font-size: 4vw;
+  font-size: 5vw;
   font-weight: bold;
   -webkit-animation-duration: 3s;
   -webkit-animation-name: slidein;
@@ -299,7 +298,7 @@ div{
 .ftnicn i{
   color: #f17e21;
   margin-top: 6px;
-  margin-right:40px;
+  margin-right:10px;
   font-size: 30px;
 }
 
