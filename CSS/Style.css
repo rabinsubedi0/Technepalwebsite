@@ -54,9 +54,7 @@ body{
 
 /* start crouselbannersection */
 
-/* .carousel-inner{
-  height: 550px;
-} */
+
 .carousel-caption {
   top: 20%;
   
@@ -145,7 +143,192 @@ div{
 /* .crouselsection finish */
 
 /* start service section */
-.servicessection{
+.forbgclr{
+  background-image: url('../IMG/1.jpg');
+  background-repeat: no-repeat;
+}
+
+.col-md-4{
+  background-color: #000000bd;
+}
+#bestline{
+  border: 2px solid rgba(4, 236, 147, 0.918);
+  width: 300px;
+}
+
+.container-image{
+  border: 2px solid #f17e21;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
+.container-image i{
+  color: #f17e21;
+  margin-top: 6px;
+  font-size: 30px;
+}
+.text-center {
+  text-align: center !important;
+}
+#titile {
+  color: rgba(245, 88, 16, 0.836);
+  text-decoration: none;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: slidein;
+
+  /*for firefox*/
+  -moz-animation-duration: 3s;
+  -moz-animation-name: slidein;
+
+    /* for opera*/
+  -o-animation-duration: 3s;
+  -o-animation-name: slidein;
+
+    /* Standard syntax*/
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+.mainheadind a{
+  color: white;
+}
+.subtitle p{
+  color: white;
+  text-align: justify;
+  font-size: 15px;
+}
+
+#mylord{
+  background-color: rgb(118, 172, 118);
+  border: 0px solid;
+}
+
+ /* end service section */
+
+
+ /* portfolio section */
+
+ .portfolio{
+  background-image: url('../IMG/1.jpg');
+ }
+
+ .wholebg{
+  background-color: #000000bd;
+ }
+ .maintitle a{
+   color: white;
+   margin: 20px;
+   padding-top: 20px;
+ }
+ .subsss p{
+   color:rgba(255, 255, 255, 0.493);
+   font-size:20px;
+   text-align: justify;
+   padding: 20px;
+ }
+ .contactusbtn button{
+   color: white;
+   font-weight: bold;
+   background-color: orangered;
+   width: 40%;
+ }
+ .contactusbtnn button{
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  background-color: orangered;
+  width: 40%;
+}
+.contactusbtn button:hover{
+  background-color: orange;
+  box-shadow: 10px;
+}
+
+ .list li{
+   color: white;
+   font-size: 19px;
+ }
+ #management{
+   height: 530px;
+ }
+ /* end portfolio section */
+
+ /* COntactus*/
+.contactbtn button{
+  background-color: orangered;
+  color: white;
+  font: bold;
+}
+.contactus{
+  background-image: url("../IMG/cont.jpg");
  
 }
- /* end service section */
+.contacttile{
+  color: white;
+  font-weight: bold;
+}
+div{
+  overflow: hidden;
+}
+.form-group{
+  color: white;
+}
+ /* Endcontactus */
+
+ /* footer */
+ footer{
+   background-color:black;
+ }
+ .jhk{
+   text-align: center;
+   margin-right: auto;
+   margin-left: auto;
+ }
+ .footerimage a{
+   margin-right:-10px;
+ }
+.address p{
+  color: white;
+}
+
+.ftnicn i{
+  color: #f17e21;
+  margin-top: 6px;
+  margin-right:40px;
+  font-size: 30px;
+}
+
+#line{
+  border: 1px solid orange;
+  width: 40px;
+}
+.footerhead p{
+  color: wheat;
+  font-size: 20px;
+  padding: 10px;
+  margin:30px
+}
+.footerlist a {
+  color: white;
+  text-decoration:none
+} 
+.footerlisti li{
+  text-decoration: none;
+}
+.footelast{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10%;
+}
+.footerhead{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+ /* footer */
