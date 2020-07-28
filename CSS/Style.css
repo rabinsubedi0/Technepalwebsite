@@ -47,6 +47,7 @@ height:55px;
 .nav-link:hover{
   background-color: greenyellow;
   transition: 1s;
+  border-radius: 50px;
 }
 /* end navigationbar section */
 
