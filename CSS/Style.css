@@ -3,9 +3,8 @@ body{
 }
 /* start navigationbar section */
 #logo{
-    width: auto;
-    height:100px;
-    margin-top:0px;
+   
+    height:120px;
 }
 
 #topnavigationmanage{
@@ -40,6 +39,7 @@ body{
   font-optical-sizing: 100px;
   font-size: 19px;
   text-align: center;
+ 
   margin-right: 30px;
   font-family: 'Archivo', sans-serif;
   font-family: 'Tinos', serif;
@@ -53,16 +53,27 @@ body{
 
 
 /* start crouselbannersection */
-.crouselsection{
-  margin-top:-50px;
-  width: 100%;
-}
 
+/* .carousel-inner{
+  height: 550px;
+} */
 .carousel-caption {
   top: 20%;
-  background: rgba(0,0,0,.43);
- 
+  
 }
+div{
+  overflow: hidden;
+}
+.img-container {
+   background-color: #000000;
+ }
+.img-container img { 
+  opacity: 0.5; 
+}
+#mamphuli{
+  font-size: 2vw;;
+}
+
 .carousel-caption  a p{
   color: white;
   margin:0;
@@ -130,3 +141,11 @@ body{
       width: 100%;
   }
 }
+
+/* .crouselsection finish */
+
+/* start service section */
+.servicessection{
+ 
+}
+ /* end service section */
